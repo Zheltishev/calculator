@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, lightsalmon 30%, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input {
+    outline: none;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkorange;
+}
+
+input::placeholder {
+    color: orangered;
+}
+
+.hide {
+    display: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.app.big {
+    width: 500px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -5px;
+}
+
+.values {
+    width: 354px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.values.big {
+    width: 454px;
+}
+
+.state-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.state-toggle:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    margin: 3px;
+    background-color: #fff;
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
